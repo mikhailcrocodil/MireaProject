@@ -32,4 +32,44 @@
         android:name="ru.mirea.martynovmv.mireaproject.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/PracticeFour"
+        android:name="ru.mirea.martynovmv.mireaproject.Practice_Four"
+        android:label="fragment_practice__four"
+        tools:layout="@layout/fragment_practice__four" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="ru.mirea.martynovmv.mireaproject.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+    <fragment
+        android:id="@+id/practiceFiveSensor"
+        android:name="ru.mirea.martynovmv.mireaproject.practiceFive"
+        android:label="fragment_practice_five"
+        tools:layout="@layout/fragment_practice_five" />
+    <fragment
+        android:id="@+id/practiceSixProfile"
+        android:name="ru.mirea.martynovmv.mireaproject.practiceSix"
+        android:label="fragment_practice_six"
+        tools:layout="@layout/fragment_practice_six" />
+    <fragment
+        android:id="@+id/practiceSixWorkWithFiles"
+        android:name="ru.mirea.martynovmv.mireaproject.practiceSixWorkWithFiles"
+        android:label="fragment_practice_six_work_with_files"
+        tools:layout="@layout/fragment_practice_six_work_with_files" />
+    <fragment
+        android:id="@+id/practiceSeven"
+        android:name="ru.mirea.martynovmv.mireaproject.practiceSeven"
+        android:label="fragment_practice_seven"
+        tools:layout="@layout/fragment_practice_seven" />
+    <fragment
+        android:id="@+id/practiceFiveCamera"
+        android:name="ru.mirea.martynovmv.mireaproject.practiceFiveCamera"
+        android:label="fragment_practice_five_camera"
+        tools:layout="@layout/fragment_practice_five_camera" />
+    <fragment
+        android:id="@+id/practiceFiveMicrophone"
+        android:name="ru.mirea.martynovmv.mireaproject.practiceFiveMicrophone"
+        android:label="fragment_practice_five_microphone"
+        tools:layout="@layout/fragment_practice_five_microphone" />
 </navigation>

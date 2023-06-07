@@ -24,6 +24,42 @@
             android:id="@+id/webViewFragment"
             android:icon="@drawable/ic_web_fragment"
             android:title="webViewFragment" />
+        <item
+            android:id="@+id/PracticeFour"
+            android:icon="@drawable/ic_number_four"
+            android:title="PracticeFour" />
+        <item
+            android:id="@+id/practiceFiveSensor"
+            android:icon="@drawable/five"
+            android:title="PracticeFivePressureSensor" />
+        <item
+            android:id="@+id/practiceFiveCamera"
+            android:icon="@drawable/five"
+            android:title="PracticeFiveCamera" />
+        <item
+            android:id="@+id/practiceFiveMicrophone"
+            android:icon="@drawable/five"
+            android:title="PracticeFiveMicrophone" />
+
+
+        <item
+            android:id="@+id/practiceSixProfile"
+            android:icon="@drawable/six"
+            android:title="PracticeSixProfile" />
+        <item
+            android:id="@+id/practiceSixWorkWithFiles"
+            android:icon="@drawable/six"
+            android:title="PracticeSixWorkWithFiles" />
+        <item
+            android:id="@+id/practiceSeven"
+            android:icon="@drawable/seven"
+            android:title="PracticeSeven" />
+
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@drawable/eight"
+            android:title="MapFragment" />
+
 
     </group>
 </menu>

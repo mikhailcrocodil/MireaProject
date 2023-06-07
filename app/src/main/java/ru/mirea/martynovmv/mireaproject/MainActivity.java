@@ -3,13 +3,10 @@ package ru.mirea.martynovmv.mireaproject;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
-import android.webkit.WebView;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -44,15 +41,17 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.dataFragment, R.id.webViewFragment)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.dataFragment, R.id.webViewFragment,
+                R.id.PracticeFour, R.id.mapFragment, R.id.practiceFiveSensor, R.id.practiceFiveCamera,
+                R.id.practiceFiveMicrophone,
+                R.id.practiceSixProfile, R.id.practiceSixWorkWithFiles,
+                R.id.practiceSeven)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
-
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
